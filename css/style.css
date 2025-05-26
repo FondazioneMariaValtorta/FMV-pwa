@@ -1,0 +1,65 @@
+/* Impostazioni generali */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+/* Menu di navigazione */
+nav {
+    background-color: #002060;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Sezione principale */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Pulsanti */
+button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #002060;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
