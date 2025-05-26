@@ -28,9 +28,12 @@
 
     <!-- Registra il Service Worker -->
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js');
-        }
-    </script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+        .then(() => console.log("Service Worker registrato!"))
+        .catch(err => console.error("Errore nel Service Worker:", err));
+    }
+</script>
+
 </body>
 </html>
