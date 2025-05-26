@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Mia PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        img {
+            width: 300px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Benvenuto nella mia PWA!</h1>
+    <p>Clicca sull'immagine per accedere alla pagina.</p>
+
+    <!-- Immagine che funge da pulsante -->
+    <a href="https://www.esempio.com">
+        <img src="images/icon.png" alt="Vai alla pagina">
+    </a>
+
+    <!-- Registra il Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js');
+        }
+    </script>
+</body>
+</html>
