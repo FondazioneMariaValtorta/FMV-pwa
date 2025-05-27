@@ -66,7 +66,7 @@ footer {
 
 .fullscreen-bg {
     background-image: url('https://raw.githubusercontent.com/fondazionemariavaltorta/FMV-pwa/main/APP-sfondo-1.jpg');
-    background-size: auto;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     width: 100vw;
