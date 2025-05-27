@@ -26,7 +26,7 @@
     <!-- Registra il Service Worker -->
     <script>
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('/FMV-pwa/sw.js')
         .then(() => console.log("Service Worker registrato!"))
         .catch(err => console.error("Errore nel Service Worker:", err));
     }
