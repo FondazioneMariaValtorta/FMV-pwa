@@ -5,6 +5,7 @@ self.addEventListener('install', (event) => {
                 '/',
                 '/index.html',
                 '/manifest.json',
+                '/css/syle.css',
                 '/logo_FMVo.png'
             ]);
         })
