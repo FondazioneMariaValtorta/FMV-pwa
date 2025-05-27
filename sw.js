@@ -1,12 +1,12 @@
 self.addEventListener('install', (event) => {
     event.waitUntil(
-        caches.open('app-cache').then((cache) => {
+        caches.open('FMV-pwa-cache').then((cache) => {
             return cache.addAll([
                 '/',
                 '/index.html',
                 '/manifest.json',
                 '/css/syle.css',
-                '/logo_FMVo.png'
+                '/logo_s.png'
             ]);
         })
     );
