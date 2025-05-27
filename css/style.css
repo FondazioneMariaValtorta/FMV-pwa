@@ -63,3 +63,16 @@ footer {
     padding: 10px;
     font-size: 0.9em;
 }
+
+.fullscreen-bg {
+    background-image: url('APP-sfondo-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
