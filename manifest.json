@@ -1,7 +1,7 @@
 {
   "name": "Fondazione Maria Valtorta",
   "short_name": "FMV",
-  "start_url": "index.html",
+  "start_url": "FMV-pwa/index.html",
   "display": "standalone",
   "icons": [
     {
