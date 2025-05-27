@@ -1,16 +1,16 @@
 {
-  "name": "La Mia PWA",
-  "short_name": "PWA",
+  "name": "Fondazione Maria Valtorta",
+  "short_name": "FMV",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [
     {
-      "src": "images/icon.png",
+      "src": "logo_FMVo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "images/icon-large.png",
+      "src": "logo_FMVo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
