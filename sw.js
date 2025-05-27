@@ -3,10 +3,10 @@ self.addEventListener('install', (event) => {
         caches.open('FMV-pwa-cache').then((cache) => {
             return cache.addAll([
                 '/',
-                '/index.html',
-                '/manifest.json',
-                '/css/syle.css',
-                '/logo_s.png'
+                '/FMV-pwa/index.html',
+                '/FMV-pwa/manifest.json',
+                '/FMV-pwa/css/syle.css',
+                '/FMV-pwa/logo_s.png'
             ]);
         })
     );
