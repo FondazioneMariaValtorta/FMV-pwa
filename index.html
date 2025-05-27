@@ -32,5 +32,36 @@
     }
 </script>
 
+    <script>
+window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    let installPromptEvent = event;
+
+    document.getElementById('install-banner').style.display = 'block'; 
+
+    document.getElementById('install-banner').addEventListener('click', () => {
+        installPromptEvent.prompt();
+    });
+});
+</script>
+
+<button id="install-button" style="display: none; background: #007BFF; color: #fff; padding: 10px; border: none; border-radius: 5px;">
+    📲 Installa App
+</button>
+
+<script>
+window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    let installPromptEvent = event;
+    
+    document.getElementById('install-button').style.display = 'block';
+
+    document.getElementById('install-button').addEventListener('click', () => {
+        installPromptEvent.prompt();
+    });
+});
+</script>
+
+    
 </body>
 </html>
